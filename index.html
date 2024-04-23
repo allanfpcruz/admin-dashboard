@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--boxicons-->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo/style.css">
+  <script src="index.js" defer></script>
+  <title>Dashboard | ASMGProg</title>
+</head>
+<body>
+  <!--sidebar-->
+  <div class="side-bar">
+    <a href="#" class="logo">
+      <i class="bx bx-code-alt"></i>
+      <div class="logo-name"><span>Asmr</span>Prog</div>
+    </a>
+    <ul class="side-menu">
+      <li><a href="#"><i class="bx bxs-dashboard"></i>Dashboard</a></li>
+      <li><a href="#"><i class="bx bxs-store-alt"></i>Shop</a></li>
+      <li class="active"><a href="#"><i class="bx bxs-analyse"></i>Analytics</a></li>
+      <li><a href="#"><i class="bx bx-message-square-dots"></i>Tickets</a></li>
+      <li><a href="#"><i class="bx bx-group"></i>Users</a></li>
+      <li><a href="#"><i class="bx bx-cog"></i>Settings</a></li>
+    </ul>
+    <ul class="side-menu">
+      <li><a href="#" class="logout"><i class="bx bx-log-out-circle"></i>Logout</a></li>
+    </ul>
+  </div>
+  <!--end of side bar-->
+
+  <!--main content-->
+  <div class="content">
+    <!--navbar-->
+    <nav>
+      <i class="bx bx-menu"></i>
+      <form action="#">
+        <div class="form-input">
+          <input type="search" placeholder="search">
+          <button class="search-btn" type="submit"><i class="bx bx-search"></i></button>
+        </div>
+      </form>
+      <input type="checkbox" id="theme-toggle" hidden>
+      <label for="theme-toggle" class="theme-toggle"></label>
+      <a href="#">
+        <i class="bx bx-bell"></i>
+        <span class="count">12</span>
+      </a>
+      <a href="#" class="profile">
+        <img src="imagens/logo.png" alt="logo">
+      </a>
+    </nav>
+    <!--end of navbar-->
+  </div>
+</body>
+</html>
